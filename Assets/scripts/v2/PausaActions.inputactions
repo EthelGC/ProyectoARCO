@@ -1,0 +1,35 @@
+{
+    "version": 1,
+    "name": "PausaActions",
+    "maps": [
+        {
+            "name": "Pausar",
+            "id": "b8c53b16-8918-4af0-89ac-6c2ff69dd71b",
+            "actions": [
+                {
+                    "name": "New action",
+                    "type": "Button",
+                    "id": "6d69655c-f9c1-4759-bdd3-f241b32d5dff",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "af5af9ee-964d-420f-92ce-cfe50d029111",
+                    "path": "<XRController>{LeftHand}/{SecondaryButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
